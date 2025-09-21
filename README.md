@@ -9,3 +9,8 @@ Key panels: `rate(app_requests_total[1m])`,
 `(rate(app_request_latency_seconds_sum[5m])/rate(..._count[5m]))*1000 ms`,
 `up{job="app"}`.
 Alert: AppDown (>1m) in `prometheus/rules/alerts.yml`.
+![Prometheus App Availability](assets/prometheus_app_availability)
+![Prometheus Alerts](assets/prometheus_alerts.png)
+![SRE Starter Grafana Dashboard] (assets/sre_starter_grafana_dashboard.png)
+![Prometheus Targets] (assets/prometheus_targets.png)
+![Prometheus App Requests] (assets/prometheus_app_requests)
