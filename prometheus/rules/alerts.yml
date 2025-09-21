@@ -1,0 +1,11 @@
+groups:
+- name: app-availability
+  rules:
+  - alert: AppDown
+    expr: up{job="app"} == 0
+    for: 1m
+    labels:
+      severity: page
+    annotations:
+      summary: "App target down for >1m"
+      description: "Prometheus cannot scrape app:8000."
