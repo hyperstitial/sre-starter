@@ -12,8 +12,13 @@ Alert: AppDown (>1m) in `prometheus/rules/alerts.yml`.
 
 ### Screenshots
 
+SRE Starter Grafana Dashboard
 ![SRE Starter Grafana Dashboard](assets/sre_starter_grafana_dashboard.png)
+Prometheus Targets
 ![Prometheus Targets](assets/prometheus_targets.png)
-![Prometheus App Requests](assets/prometheus_app_requests.png)
+Prometheus App Requests
+![Prometheus App Requests Total](assets/prometheus_app_requests_total.png)
+Prometheus App Availability
 ![Prometheus App Availability](assets/prometheus_app_availability.png)
+Prometheus Alerts
 ![Prometheus Alerts](assets/prometheus_alerts.png)
